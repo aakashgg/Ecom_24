@@ -1,9 +1,7 @@
 import path from 'path';
 import express from 'express';
-import dotenv from 'dotenv';
 import colors from 'colors'
 import cookieParser from 'cookie-parser';
-dotenv.config();
 import connectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js';
 import userRoutes from './routes/userRoutes.js';

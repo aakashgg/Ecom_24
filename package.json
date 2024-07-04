@@ -1,7 +1,7 @@
 {
-  "name": "shopstar",
+  "name": "myecom",
   "version": "1.0.0",
-  "description": "eCommerce application build with MERN stack",
+  "description": "E-Commerce MERN stack",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "data:destroy": "node backend/seeder -d",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend "
   },
-  "author": "Zarman",
+  "author": "Aakash Gupta",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
