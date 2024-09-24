@@ -30,7 +30,8 @@ app.get('/', (req, res) => res.send('Server is up'));
 const __dirname = path.resolve();
 
 
-app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
+app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+
 
 app.get('/', (req, res) => {
   res.send('API is running....');
